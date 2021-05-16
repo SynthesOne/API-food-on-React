@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import Header from './pages/header/Header';
 import Footer from './pages/footer/Footer';
 import Home from './pages/main/Home';
 import About from './pages/main/About';
 import Contacts from './pages/main/Contacts';
-import NotFound from './pages/main/NotFound';
+// import NotFound from './pages/main/NotFound';
 import Category from './pages/main/Category';
 import Recipe from './pages/main/Recipe';
 
@@ -28,7 +28,8 @@ function App() {
             <Route path="/contacts" component={Contacts} />
             <Route path="/category/:name" component={Category} />
             <Route path="/meal/:id" component={Recipe} />
-            <Route component={NotFound} />
+            <Redirect to="/" />
+            {/* <Route component={NotFound} /> */}
           </Switch>
         </main>
         <Footer />
