@@ -6,6 +6,7 @@ import Home from './pages/main/Home';
 import About from './pages/main/About';
 import Contacts from './pages/main/Contacts';
 import NotFound from './pages/main/NotFound';
+import Category from './pages/main/Category';
 
 function App() {
   let text = {
@@ -24,6 +25,7 @@ function App() {
               <About text={text} />
             </Route>
             <Route path="/contacts" component={Contacts} />
+            <Route path="/category/:name" component={Category} />
             <Route component={NotFound} />
           </Switch>
         </main>

@@ -1,3 +1,6 @@
+import {Link} from 'react-router-dom';
+import './CategoryItem.css';
+
 function CategroyItem(props) {
   let { strCategory, strCategoryThumb, strCategoryDescription } = props;
 
@@ -5,10 +8,10 @@ function CategroyItem(props) {
     <div className="card">
       <img src={strCategoryThumb} alt={strCategory} />
       <h2>{strCategory}</h2>
-      <p>{strCategoryDescription}</p> 
+      <p>{strCategoryDescription.slice(0, 80)}</p> 
 
       <div className="card-action">
-        <a href="#">Watch category</a>    
+        <Link to={`/category/${strCategory}`}>Watch category</Link>    
       </div> 
     </div>
   );

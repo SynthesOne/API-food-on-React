@@ -1,7 +1,7 @@
 function Contacts() {
     return (
       <div className="wrap">
-        <h2>About</h2>
+        <h2>Contacts</h2>
       </div>
     );
   }

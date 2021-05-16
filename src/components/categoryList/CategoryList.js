@@ -1,4 +1,5 @@
 import CategoryItem from '../categoryItem/CategoryItem';
+import './CategoryList.css';
 
 function CategoryList({ catalog = [] }) {
   return (

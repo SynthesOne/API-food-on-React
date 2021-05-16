@@ -1,9 +1,12 @@
-import './Preloader.css';
+import "./Preloader.css";
 
-function Preloader(){
-    return (
-        <div className="lds-ripple"><div></div><div></div></div>
-    )
+function Preloader() {
+  return (
+    <div className="lds-ripple">
+      <div></div>
+      <div></div>
+    </div>
+  );
 }
 
 export default Preloader;
