@@ -1,0 +1,20 @@
+import {Link} from 'react-router-dom';
+import './CategoryItem.css';
+
+function CategroyItem(props) {
+  let { strCategory, strCategoryThumb, strCategoryDescription } = props;
+
+  return (
+    <div className="card">
+      <img src={strCategoryThumb} alt={strCategory} />
+      <h2>{strCategory}</h2>
+      <p>{strCategoryDescription.slice(0, 80)}</p> 
+
+      <div className="card-action">
+        <Link to={`/category/${strCategory}`}>Watch category</Link>    
+      </div> 
+    </div>
+  );
+}
+
+export default CategroyItem;
