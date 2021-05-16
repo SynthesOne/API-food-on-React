@@ -1,12 +1,6 @@
-.btn {
-  background-color: #333333;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 14px 30px 12px;
-  border-radius: 6px;
-  border: 0px;
+.btnHome {
+  outline: none;
   cursor: pointer;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
 }

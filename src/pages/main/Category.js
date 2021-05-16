@@ -3,6 +3,7 @@ import { useHistory, useParams } from 'react-router-dom';
 import { getFliterCategory } from '../../api';
 import MealList from '../../components/MealList';
 import Preloader from '../../components/preloader/Preloader';
+import './Category.css';
 
 function Category() {
   let [meals, setMeals] = useState([]);
@@ -20,7 +21,7 @@ function Category() {
       {
         !meals.length ? <Preloader /> : <MealList meals={meals} />
       }
-      <button className="btn" onClick={goBack}>Go Back</button>
+      <button className="btnHome" onClick={goBack}>Go Back</button>
     </div>
   );
 };

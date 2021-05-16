@@ -24,11 +24,11 @@ function Recipe() {
             <h1>{recipe.strMeal}</h1>
             <div>Category: <h5>{recipe.strCategory}</h5></div>
             {recipe.strArea ? <div>Area: <h5>{recipe.strArea}</h5></div> : null}
-            <p>{recipe.strInstruction}</p>
+            <p>{recipe.strInstructions}</p>
           </div>
         )
       }
-      <button className="btn" onClick={goBack}>Go Back</button>
+      <button className="btnHome" onClick={goBack}>Go Back</button>
     </div>
   );
 };
