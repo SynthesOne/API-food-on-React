@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/API-food-on-React/static/css/main.2ba56987.chunk.css",
+    "main.css": "/API-food-on-React/static/css/main.96721b47.chunk.css",
     "main.js": "/API-food-on-React/static/js/main.18f3609a.chunk.js",
     "main.js.map": "/API-food-on-React/static/js/main.18f3609a.chunk.js.map",
     "runtime-main.js": "/API-food-on-React/static/js/runtime-main.f5fb8e30.js",
@@ -8,13 +8,13 @@
     "static/js/2.7a9e0b88.chunk.js": "/API-food-on-React/static/js/2.7a9e0b88.chunk.js",
     "static/js/2.7a9e0b88.chunk.js.map": "/API-food-on-React/static/js/2.7a9e0b88.chunk.js.map",
     "index.html": "/API-food-on-React/index.html",
-    "static/css/main.2ba56987.chunk.css.map": "/API-food-on-React/static/css/main.2ba56987.chunk.css.map",
+    "static/css/main.96721b47.chunk.css.map": "/API-food-on-React/static/css/main.96721b47.chunk.css.map",
     "static/js/2.7a9e0b88.chunk.js.LICENSE.txt": "/API-food-on-React/static/js/2.7a9e0b88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f5fb8e30.js",
     "static/js/2.7a9e0b88.chunk.js",
-    "static/css/main.2ba56987.chunk.css",
+    "static/css/main.96721b47.chunk.css",
     "static/js/main.18f3609a.chunk.js"
   ]
 }
