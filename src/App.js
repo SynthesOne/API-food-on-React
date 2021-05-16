@@ -7,6 +7,7 @@ import About from './pages/main/About';
 import Contacts from './pages/main/Contacts';
 import NotFound from './pages/main/NotFound';
 import Category from './pages/main/Category';
+import Recipe from './pages/main/Recipe';
 
 function App() {
   let text = {
@@ -26,6 +27,7 @@ function App() {
             </Route>
             <Route path="/contacts" component={Contacts} />
             <Route path="/category/:name" component={Category} />
+            <Route path="/meal/:id" component={Recipe} />
             <Route component={NotFound} />
           </Switch>
         </main>
